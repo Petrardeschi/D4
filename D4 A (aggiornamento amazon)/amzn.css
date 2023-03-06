@@ -1,0 +1,203 @@
+/* Impostazione body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 3%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.piccolo {
+    color: #007185;
+    text-decoration: none; 
+    padding: 0px 0px 0px 15px;
+    font-size: 14px;
+}
+
+.f-size {
+    font-size: smaller;
+}
+
+.bg-dark {
+    background-color:#0f1111;
+}
+
+/* Parte in alto */
+
+.logo {
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+.amzn-grand {
+    width: 100px;
+}
+
+.bg-blue {
+    background-color:#222f3e;
+}
+
+.liste a {
+    color: white;
+    text-decoration: none; 
+	font-weight: bold;
+}
+
+
+.liste-a {
+    font-size: 12px;
+    margin: 1px 0px 1px;
+    padding: 9px 8px;    
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+/* Parte in arancione */
+
+.orange {
+    background-color: rgb(255, 119, 0);
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+/* Immagine col regalo */
+
+.gift {
+    background-image: url(bg-image.png);
+    background-repeat: round;
+    height: 110px;  
+    width: 100%;  
+}
+
+.gift h3 {  
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding: 25px 0px 10px 0px;
+    margin-bottom: 10px;
+}
+
+.gift p {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    margin: 0em;
+    
+}
+
+/* quattro immagini */
+
+.quat_fot {
+    background-color: white;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    text-indent: 5px;
+    justify-content: space-between;
+}
+
+.quat_fot img {
+    background-size: cover;
+    background-position: center;
+    margin: 0px 1.5%;
+    border-radius: 20px;
+    width: 21%;
+    height: 300px;
+    box-shadow: 3px 3px 15px #7e7e7e;
+}
+
+.quat_fot p {
+    padding: 5px 5px;
+}
+
+/* aggiornamento */
+
+#containers {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+    height: 440px;
+}
+
+.box-container img {
+    width: 130px;
+    height: 100px;
+    position: relative;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.box-container p {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.box-container span {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+}
+
+.box-container a {
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.box-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+    height: 40em;
+}
+
+.items {
+    position: relative;
+    width: 160px;
+}
+
+/* immagini con footer */
+
+#nove {
+    width: 100%;
+}
+
+/* parte finale */
+
+.go-top {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.go-top a{
+    color: white;
+}
+
+.logo-fin {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 20%;
+}
